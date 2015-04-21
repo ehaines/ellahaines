@@ -18,8 +18,8 @@
 			to attract potential freelance customers.
 		</p>
 		<p>
-			If possible I'd like to include a game I (hopefully)
-			will finish writing in Java soon for my other class.
+			If possible I'd like to include a game I (hopefully) will finish writing in Java soon for my other class.
+			I'd also like to do a parallax effect with a background image because I hear that's trendy.
 		</p>
 	</body>
 </html>

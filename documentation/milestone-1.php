@@ -15,7 +15,10 @@
 		<p>
 			My goal for this site is for it to serve as something like a portfolio for my work. I'd like to showcase
 			my skills in PHP, HTML, JavaScript, Java and Python.I want to use it to achieve full-time employment or
-			to attract potential freelance customers. If possible I'd like to include a game I (hopefully)
+			to attract potential freelance customers.
+		</p>
+		<p>
+			If possible I'd like to include a game I (hopefully)
 			will finish writing in Java soon for my other class.
 		</p>
 	</body>

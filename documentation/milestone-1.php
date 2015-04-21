@@ -9,8 +9,7 @@
 		<p>I would like this site to help establish me as a web developer by showcasing my skills.</p>
 		<h1>Audience</h1>
 		<p>
-			My intended audience for this site consists of potential employers and clients, and secondarily
-			other developers.
+			My intended audience for this site consists of potential employers and clients.
 		</p>
 		<h1>Goal</h1>
 		<p>

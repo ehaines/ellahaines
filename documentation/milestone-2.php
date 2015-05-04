@@ -22,6 +22,19 @@
 			He is evaluating me as candidate for a job and deciding whether to call for an interview.
 			Larry only has a short time to evaluate my website, because he has to evaluate 5 other candidates.
 		</p>
+		<p>
+			Larry is viewing the site on his desktop computer at the office, using Chrome. Here is an outline of
+			his interaction with my site:
+		</p>
+		<ol>
+			<li>Larry lands on my home/about me page and skims the brief summary of my core skills.</li>
+			<li>From this page he uses the navigation menu at the top to view the gallery of my past projects,
+				and decides that my work looks good.</li>
+			<li>If he has time, he will view the website on his mobile phone and maybe play the game on my games page
+				to see what I am capable of as a programmer. </li>
+			<li>4. He uses the contact information in the footer of the page (it is at the foot of all pages on the site)
+				to send me an email and schedule a phone interview.</li>
+		</ol>
 	</body>
 
 </html>

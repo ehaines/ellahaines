@@ -32,8 +32,19 @@
 				and decides that my work looks good.</li>
 			<li>If he has time, he will view the website on his mobile phone and maybe play the game on my games page
 				to see what I am capable of as a programmer. </li>
-			<li>4. He uses the contact information in the footer of the page (it is at the foot of all pages on the site)
+			<li>He uses the contact information in the footer of the page (it is at the foot of all pages on the site)
 				to send me an email and schedule a phone interview.</li>
+		</ol>
+		<h2>Proposed Site Map</h2>
+		<p>The site will consist of 3 top-level pages, with no sub-pages.</p>
+		<ol>
+			<li><strong>A home/about me page</strong>, detailing my qualifications for a job as a web developer, my programming languages,
+				and some professional history. This page will be scrolling and responsive; I want to try out a parallax
+				effect here with a high resolution image. At the bottom of the page I will include a small contact form.</li>
+			<li><strong>A gallery </strong>with up to 8 images of my past work, including links to the pages and a brief
+				description of my role. This will include a link to my capstone project.</li>
+			<li><strong>A games page</strong> to include the Collapse game I made (stretch goal) and a link to my Github
+				repositories, which will demonstrate my coding abilities.</li>
 		</ol>
 	</body>
 

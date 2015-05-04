@@ -46,6 +46,17 @@
 			<li><strong>A games page</strong> to include the Collapse game I made (stretch goal) and a link to my Github
 				repositories, which will demonstrate my coding abilities.</li>
 		</ol>
+		<h2>Proposed Features and Functionality</h2>
+		<ul>
+			<li>A navbar at the top of each page. This will make use of the Bootstrap pill buttons</li>
+			<li>Contact form at the bottom of the main page</li>
+			<li>Contact information in the footer of all pages</li>
+			<li>A gallery/slideshow of screenshots of various projects, using the bootstrap responsive embed feature so it
+			will scale for mobile devices</li>
+			<li>Responsive background imagery</li>
+			<li>An embedded game on the games page for people to play (or possibly just a download link)</li>
+			<li></li>
+		</ul>
 	</body>
 
 </html>

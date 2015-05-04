@@ -55,7 +55,6 @@
 			will scale for mobile devices</li>
 			<li>Responsive background imagery</li>
 			<li>An embedded game on the games page for people to play (or possibly just a download link)</li>
-			<li></li>
 		</ul>
 	</body>
 

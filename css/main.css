@@ -1,0 +1,79 @@
+/*=========================*/
+/*NAVIGATION BAR*/
+/*==========================*/
+.navbar {
+	background-color: black;
+	color: white;
+}
+.navbar a{
+	color: white;
+}
+.navbar .fa {
+	font-size: 2em;
+}
+/*=========================*/
+/*FIRST SECTION*/
+/*=========================*/
+
+#Ella-jumbotron {
+	margin-top: 30%;
+	margin-bottom: 30%;
+	text-align: center;
+	background-color: rgba(22, 19, 19, 0.5);
+	color: rgb(243, 184, 44);
+}
+
+/*============================*/
+/*GALLERY SECTION*/
+/*============================*/
+#swipe-container {
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+
+/*==========================*/
+/*ABOUT SECTION*/
+/*==========================*/
+#about-section p {
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+/*=======================*/
+/*BACKGROUND*/
+/*=======================*/
+section {
+	background-size: cover;
+	background-position: center;
+}
+.desktop-background-img {
+}
+
+@media screen and (min-width: 769px) {
+	#landing-section {
+		background-image: url("/img/sunset_birds1920x1273.jpg");
+	}
+
+	#gallery-section {
+		background-image: url("/img/sun-rise_1280x853.jpg");
+	}
+
+	#about-section {
+		background-image: url("/img/poppies_1920x1280.jpg");
+	}
+}
+
+/*Fixed background for mobile version*/
+@media screen and (max-width: 768px){
+	body {
+		background-image: url("/img/sunset_1280x960.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+/*remove desktop background images for mobile*/
+	.desktop-background-img {
+		display: none;
+	}
+}
+/*@media screen and (min-width: 769px) {*/
+
+

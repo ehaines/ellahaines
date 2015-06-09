@@ -47,7 +47,7 @@
 <!--		<script src="lib/jquery-2.0.3.js"></script>-->
 <!--		<script src="/js/jquery.swipebox.js"></script>-->
 
-		<title>Ella's Totally Rad Website</title>
+		<title>Ella Haines</title>
 	</head>
 	<body>
 

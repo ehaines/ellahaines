@@ -20,6 +20,9 @@
 		<!--Custom CSS Stylesheets-->
 		<link rel="stylesheet" href="/css/games.css"/>
 
+		<!--Google Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -65,13 +68,18 @@
 		<main class="container">
 			<section>
 				<div id="video-box" class="col-md-8 col-md-offset-2">
-					<h1>Collapse!</h1>
+					<h1>Collapse</h1>
 					<figure>
 						<img src="img/collapse2.51.jpg" class="img-responsive" alt="Picture of Collapse game">
 					</figure>
 					<div id="button-box">
-						<a href="downloads/collapsegame2.5.jar" download="Collapse2.5.jar" class="btn btn-info btn-large">DOWNLOAD!</a>
+						<a href="downloads/collapsegame2.5.jar" download="Collapse2.5.jar" class="btn btn-info btn-large">DOWNLOAD</a>
 						<h4>Requires Java 8</h4>
+						<p>Not for mobile! Click on groups of 3 or more blocks to make them disappear. The
+						surrounding blocks will collapse downward, then sideways toward the central column.
+						A new row will be added to the bottom every time the preview window fills with blocks.
+						Every 200 points you will gain a level and the game will get faster. Every 3 levels, you
+						will get a new block color.</p>
 					</div>
 				</div>
 

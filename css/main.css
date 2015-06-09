@@ -11,46 +11,107 @@
 .navbar .fa {
 	font-size: 2em;
 }
+
 /*=========================*/
 /*FIRST SECTION*/
 /*=========================*/
 
 #Ella-jumbotron {
-	margin-top: 30%;
-	margin-bottom: 30%;
+	font-family: 'Nothing You Could Do', 'Helvetica', 'sans-serif';
+	margin-top: 20%;
+	/*margin-bottom: 20%;*/
 	text-align: center;
 	background-color: rgba(22, 19, 19, 0.5);
-	color: rgb(243, 184, 44);
+	color: white;
+}
+/*this is set to work with the parallax effect*/
+#landing-section {
+	height: 800px;
 }
 
 /*============================*/
 /*GALLERY SECTION*/
 /*============================*/
 #swipe-container {
-	margin-top: 30%;
-	margin-bottom: 30%;
+	margin-top: 20%;
+	margin-bottom: 20%;
 }
 
 /*==========================*/
 /*ABOUT SECTION*/
 /*==========================*/
-#about-section p {
-	margin-top: 30%;
-	margin-bottom: 30%;
+
+/*change of text color for mobile poppy background*/
+@media screen and (max-width: 768px) {
+	#about-section article {
+		color: white;
+		background-color: rgba(22, 19, 19, 0.5);
+		border-radius: 6px;
+		padding: 30px 15px;
+	}
+	.btn {
+		background-color: rgba(22, 19, 19, .5);
+	}
+}
+#about-section article {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	color: white;
+}
+#about-section h2 {
+	font-family: 'Nothing You Could Do', 'Helvetica', 'sans-serif';
+	text-align: center;
+}
+/*===========================*/
+/*CONTACT SECTION*/
+/*===========================*/
+/*this is set to work with the parallax effect*/
+#contact-section {
+	height: 800px;
+}
+
+#form-box{
+	margin-top: 20%;
+	/*margin-bottom: 20%;*/
+	text-align: center;
+	background-color: rgba(243, 243, 243, 0.6);
+}
+#form-box .form-control {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+#contact-section h2 {
+	font-family: 'Nothing You Could Do', 'Helvetica', 'sans-serif';
+}
+@media screen and (max-width: 768px) {
+
+	#form-box{
+		background-color:rgba(22, 19, 19, 0.5);
+		color:white;
+	}
+	#form-box .form-control {
+		background-color: rgba(22, 19, 19, 0.3);
+		color: white;
+	}
+
 }
 /*=======================*/
 /*BACKGROUND*/
 /*=======================*/
-section {
-	background-size: cover;
-	background-position: center;
+section.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
 }
-.desktop-background-img {
-}
+
+/*section {*/
+	/*background-size: cover;*/
+/*}*/
 
 @media screen and (min-width: 769px) {
 	#landing-section {
-		background-image: url("/img/sunset_birds1920x1273.jpg");
+		background-image: url("/img/poppies_1920x1280.jpg");
 	}
 
 	#gallery-section {
@@ -58,14 +119,17 @@ section {
 	}
 
 	#about-section {
-		background-image: url("/img/poppies_1920x1280.jpg");
+		background-color: black;
+	}
+	#contact-section {
+		background-image: url("/img/mailbox-1920x1280.jpg");
 	}
 }
 
 /*Fixed background for mobile version*/
 @media screen and (max-width: 768px){
 	body {
-		background-image: url("/img/sunset_1280x960.jpg");
+		background-image: url("/img/poppies-mobile.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}

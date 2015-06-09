@@ -54,7 +54,7 @@
 					<div class="collapse navbar-collapse" id="navbar-collapsed">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="index.php/#about-section">About</a></li>
-							<li><a href="index.php/#gallery-section">Gallery</a></li>
+<!--							<li><a href="index.php/#gallery-section">Gallery</a></li>-->
 							<li><a href="index.php/#contact-section">Contact</a></li>
 							<li><a href="">Games</a></li>
 						</ul>
@@ -70,9 +70,9 @@
 						<img src="img/collapse2.51.jpg" class="img-responsive" alt="Picture of Collapse game">
 					</figure>
 					<div id="button-box">
-						<button class="btn btn-info btn-large">DOWNLOAD</button>
+						<a href="downloads/collapsegame2.5.jar" download="Collapse2.5.jar" class="btn btn-info btn-large">DOWNLOAD!</a>
+						<h4>Requires Java 8</h4>
 					</div>
-
 				</div>
 
 			</section>

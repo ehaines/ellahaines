@@ -138,7 +138,7 @@
 		<section class="container-fluid parallax sizedBackground" data-stellar-background-ratio="0.5" id="contact-section">
 			<div class="jumbotron col-md-6 col-md-offset-3" id="form-box">
 				<h2>CONTACT ME</h2>
-				<form id="contact-form">
+				<form id="contact-form" method="post" action="lib/contact-form.php">
 					<!--csrf protection-->
 					<?php echo generateInputTags(); ?>
 					<div class="form-group">

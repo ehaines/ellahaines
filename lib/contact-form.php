@@ -10,36 +10,49 @@ try {
 		exit();
 	}
 	//take and sanitize inputs
-	$from = $_POST["email-address"];
+	$from = $_POST["emailaddress"];
 	$from = filter_var($from, FILTER_SANITIZE_EMAIL);
 
 	$subject = $_POST["subject"];
 	$subject = filter_var($subject, FILTER_SANITIZE_STRING);
+	$subject = "Message from ellahaines.net: $subject";
 
 	$message = $_POST["message"];
 	$message = filter_var($message, FILTER_SANITIZE_STRING);
 
 	// build headers
-	$headers = array();
-	$headers["To"] = "haines.ella@gmail.com";
-	$headers["From"] = $from;
-	$headers["Subject"] = $subject;
-	$headers["MIME-Version"] = "1.0";
-	$headers["Content-Type"] = "text/html; charset=UTF-8";
+//	$headers = array();
+//	$headers["To"] = "haines.ella@gmail.com";
+//	$headers["From"] = $from;
+//	$headers["Subject"] = $subject;
+//	$headers["MIME-Version"] = "1.0";
+//	$headers["Content-Type"] = "text/html; charset=UTF-8";
 
 	// send the email
-	error_reporting(E_ALL & ~E_STRICT & ~E_DEPRECATED);
-	$mailer =& Mail::factory("sendmail");
-	$status = $mailer->send($to, $headers, $message);
-	if(PEAR::isError($status) === true)
-	{
-		 throw new Exception($status->getMessage());
-	}
+//	error_reporting(E_ALL & ~E_STRICT & ~E_DEPRECATED);
+//	$mailer =& Mail::factory("sendmail");
+//	$status = $mailer->send($to, $headers, $message);
 
+//	if(PEAR::isError($status) === true)
+//	{
+//		throw new Exception($status->getMessage());
+//	}
+
+	//build headers
+	$headers = "From: $from\r\n";
+	$headers .= "Reply-To: $from\r\n";
+
+	//send the mail
+	$status = mail("haines.ella@gmail.com", $subject, $message, $headers);
+
+	if ($status) {
+		echo "<p class='alert alert-success'> Thank you for your message, I will contact you shortly. </p>";
+	}
+	else throw new Exception($status->getMessage());
 
 }catch(Exception $exception) {
 	$message = $exception->getMessage();
-	echo "<li class='alert alert-danger'>Could not send email: $message; </li>";
+	echo "<p class='alert alert-danger'>Could not send email: $message; </p>";
 }
 
 ?>

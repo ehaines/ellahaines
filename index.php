@@ -142,7 +142,7 @@
 					<!--csrf protection-->
 					<?php echo generateInputTags(); ?>
 					<div class="form-group">
-						<input class="form-control" type="text" id="email-address" name="email-address" placeholder="Your email">
+						<input class="form-control" type="text" id="emailaddress" name="emailaddress" placeholder="Your email">
 					</div>
 					<div class="form-group">
 						<input class="form-control" type="text" id="subject" name="subject" placeholder="Subject">

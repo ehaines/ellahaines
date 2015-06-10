@@ -47,9 +47,9 @@
 <!--		<script src="lib/jquery-2.0.3.js"></script>-->
 <!--		<script src="/js/jquery.swipebox.js"></script>-->
 
-		<title>Ella Haines</title>
+		<title>Design by Ella</title>
 	</head>
-	<body>
+	<body class="sizedBackground">
 
 <!--=======================-->
 <!--NAVBAR-->
@@ -81,7 +81,7 @@
 <!--BODY-->
 <!--====================-->
 		<!--LANDING SECTION-->
-		<section class="container-fluid parallax" data-stellar-background-ratio="1.5" id ="landing-section">
+		<section class="container-fluid parallax sizedBackground" data-stellar-background-ratio="0.5" id ="landing-section">
 <!--			<img class = "img-responsive desktop-background-img" src="img/sunset_birds1920x1273.jpg" alt="birds flying at sunset">-->
 			<div class="jumbotron col-md-6 col-md-offset-3 text" id="Ella-jumbotron">
 				<h1>Ella Haines</h1>
@@ -107,7 +107,7 @@
 <!--		</section>-->
 
 		<!--ABOUT SECTION-->
-		<section class="container-fluid parallax" data-stellar-background-ratio="0.5"id ="about-section">
+		<section class="container-fluid parallax sizedBackground" data-stellar-background-ratio="1.0"id ="about-section">
 			<article class="col-md-4 col-md-offset-4">
 				<h2>ABOUT ME</h2>
 				<p>
@@ -128,7 +128,7 @@
 			</article>
 		</section>
 		<!--CONTACT SECTION-->
-		<section class="container-fluid parallax" data-stellar-background-ratio="1.5" id="contact-section">
+		<section class="container-fluid parallax sizedBackground" data-stellar-background-ratio="0.5" id="contact-section">
 			<div class="jumbotron col-md-6 col-md-offset-3" id="form-box">
 				<h2>CONTACT ME</h2>
 				<form id="contact-form">

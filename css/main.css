@@ -18,15 +18,11 @@
 
 #Ella-jumbotron {
 	font-family: 'Nothing You Could Do', 'Helvetica', 'sans-serif';
-	margin-top: 20%;
-	/*margin-bottom: 20%;*/
+	margin-top: 150px;
+	margin-bottom: 50px;
 	text-align: center;
 	background-color: rgba(22, 19, 19, 0.5);
 	color: white;
-}
-/*this is set to work with the parallax effect*/
-#landing-section {
-	height: 800px;
 }
 
 /*============================*/
@@ -65,14 +61,10 @@
 /*===========================*/
 /*CONTACT SECTION*/
 /*===========================*/
-/*this is set to work with the parallax effect*/
-#contact-section {
-	height: 800px;
-}
 
 #form-box{
-	margin-top: 20%;
-	/*margin-bottom: 20%;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
 	text-align: center;
 	background-color: rgba(243, 243, 243, 0.6);
 }
@@ -96,19 +88,32 @@
 /*=======================*/
 /*BACKGROUND*/
 /*=======================*/
-section.parallax {
-	background-attachment: fixed;
-	background-position: 50% 0;
+/*Background for mobile version*/
+@media screen and (max-width: 768px){
+	body {
+		background-image: url("/img/poppies-mobile.jpg");
+	}
+}
+
+.sizedBackground {
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+section {
+	height: auto;
+}
+
+section.parallax {
+	background-position: 50% 0;
 	margin: 0 auto;
 	position: relative;
 }
 
-/*section {*/
-	/*background-size: cover;*/
-/*}*/
 
 @media screen and (min-width: 769px) {
+
 	#landing-section {
 		background-image: url("/img/poppies_1920x1280.jpg");
 	}
@@ -126,17 +131,32 @@ section.parallax {
 }
 
 /*Fixed background for mobile version*/
-@media screen and (max-width: 768px){
-	body {
-		background-image: url("/img/poppies-mobile.jpg");
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
+/*@media screen and (max-width: 768px){*/
+	/*section {*/
+		/*height: auto;*/
+	/*}*/
+	/*body {*/
+		/*background-image: url("/img/poppies-mobile.jpg");*/
+		/*background-repeat: no-repeat;*/
+		/*background-attachment: fixed;*/
+	/*}*/
 /*remove desktop background images for mobile*/
-	.desktop-background-img {
-		display: none;
+	/*.desktop-background-img {*/
+		/*display: none;*/
+	/*}*/
+/*}*/
+
+/*==================================*/
+/*ELEMENT MARGINS FOR LARGER SCREENS*/
+/*===================================*/
+
+@media screen and (min-width: 992px) {
+	#form-box{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	#Ella-jumbotron {
+		margin-top: 250px;
+		margin-bottom: 200px;
 	}
 }
-/*@media screen and (min-width: 769px) {*/
-
-

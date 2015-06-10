@@ -43,9 +43,16 @@
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 		<!--swipebox plugin-->
 <!--		<script src="lib/jquery-2.0.3.js"></script>-->
 <!--		<script src="/js/jquery.swipebox.js"></script>-->
+
+		<!--CSRF protection-->
+		<?php require_once("lib/csrf.php");
+		// start a PHP session for CSRF protection
+		session_start();
+		?>
 
 		<title>Design by Ella</title>
 	</head>
@@ -132,6 +139,8 @@
 			<div class="jumbotron col-md-6 col-md-offset-3" id="form-box">
 				<h2>CONTACT ME</h2>
 				<form id="contact-form">
+					<!--csrf protection-->
+					<?php echo generateInputTags(); ?>
 					<div class="form-group">
 						<input class="form-control" type="text" id="email-address" name="email-address" placeholder="Your email">
 					</div>
@@ -139,12 +148,14 @@
 						<input class="form-control" type="text" id="subject" name="subject" placeholder="Subject">
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" id="email-content" name="email-content" maxlength="3000" rows="5" placeholder="3000 characters max"></textarea>
+						<textarea class="form-control" id="message" name="message" maxlength="3000" rows="5" placeholder="3000 characters max"></textarea>
 					</div>
 					<div class="form-group">
 						<button type="submit" class="btn">Send</button>
 					</div>
 				</form>
+				<!--empty div for error messages-->
+				<div id="output-area"></div>
 			</div>
 		</section>
 

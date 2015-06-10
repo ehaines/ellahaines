@@ -21,7 +21,7 @@ try {
 
 	// build headers
 	$headers = array();
-	$headers["To"] = 'haines.ella@gmail.com';
+	$headers["To"] = "haines.ella@gmail.com";
 	$headers["From"] = $from;
 	$headers["Subject"] = $subject;
 	$headers["MIME-Version"] = "1.0";

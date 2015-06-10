@@ -85,6 +85,21 @@
 		color: white;
 	}
 }
+/*=========================*/
+/*FOOTER*/
+/*=========================*/
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+footer a {
+	color: white;
+}
+
 /*=======================*/
 /*BACKGROUND*/
 /*=======================*/

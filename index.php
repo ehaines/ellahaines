@@ -118,14 +118,14 @@
 			<article class="col-md-4 col-md-offset-4">
 				<h2>ABOUT ME</h2>
 				<p>
-					I began programming in 2012, and quickly discovered that I really enjoy
+					I began programming in 2012, and quickly discovered that I really enjoy the feeling I get from
 					squashing bugs and figuring out how to do something for the first time.
 					It's addictive! I love the creative problem-solving that comes with coding,
 					so at the beginning of the year, I enrolled in the Deep Dive Coding Bootcamp
 					to become a web developer.
 				</p>
 				<p>
-					I have programmed in Java, Python, PHP, MySQL, JavaScript, HTML5, and CSS,
+					I have worked in Java, Python, PHP, MySQL, JavaScript, HTML5, and CSS,
 					and I'm always looking to learn new skills for each project I take on.
 					I love coding little games, a sample of which you can see on my games page.
 					As a web developer, I aim to make my sites as intuitive as possible,
@@ -158,6 +158,16 @@
 				<div id="output-area"></div>
 			</div>
 		</section>
+<!--=========================-->
+<!--		FOOTER-->
+<!--=========================-->
+		<footer class="footer">
+			<p>
+				<a href="mailto:haines.ella@gmail.com">haines.ella@gmail.com</a> <br/>
+				<a href="tel:+12029999217">202-999-9217</a><br/>
+				Albuquerque, NM
+			</p>
+		</footer>
 
 	</body>
 </html>

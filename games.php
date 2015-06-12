@@ -46,8 +46,8 @@
 						<img src="img/collapse2.51.jpg" class="img-responsive" alt="Picture of Collapse game">
 					</figure>
 					<div id="button-box">
-						<a href="downloads/collapsegame2.5.jar" download="Collapse2.5.jar" class="btn btn-info btn-large">DOWNLOAD</a>
-						<h4>Requires Java 8</h4>
+						<a href="downloads/collapsegame2_5.jar" download="collapse2_5.jar" class="download-button">DOWNLOAD</a>
+						<h4 class="java-8-tag">Requires Java 8</h4>
 						<p>Not for mobile! Click on groups of 3 or more blocks to make them disappear. The
 						surrounding blocks will collapse downward, then sideways toward the central column.
 						A new row will be added to the bottom every time the preview window fills with blocks.

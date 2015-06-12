@@ -68,12 +68,22 @@
 	text-align: center;
 	background-color: rgba(243, 243, 243, 0.6);
 }
+#form-box textarea {
+	resize: none;
+}
+
 #form-box .form-control {
 	background-color: rgba(255, 255, 255, 0.75);
 }
 #contact-section h2 {
 	font-family: 'Nothing You Could Do', 'Helvetica', 'sans-serif';
 }
+
+.response-message {
+	font-family: 'Nothing You Could Do', 'Helvetica', 'sans-serif';
+	font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
 
 	#form-box{
@@ -126,7 +136,7 @@ section.parallax {
 	position: relative;
 }
 
-
+/*multiple background images for desktop site*/
 @media screen and (min-width: 769px) {
 
 	#landing-section {
@@ -144,6 +154,22 @@ section.parallax {
 		background-image: url("/img/mailbox-1920x1280.jpg");
 	}
 }
+
+/* this loads a large background image for Retina-type displays */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+	#welcome {
+		background-image: url("/img/poppies-retina.jpg");
+		/*background-size: 2000px 1500px;*/
+	}
+}
+
 
 /*Fixed background for mobile version*/
 /*@media screen and (max-width: 768px){*/
@@ -164,8 +190,14 @@ section.parallax {
 /*==================================*/
 /*ELEMENT MARGINS FOR LARGER SCREENS*/
 /*===================================*/
+@media screen and (min-width: 769px) {
+	#Ella-jumbotron {
+		margin-top: 150px;
+		margin-bottom: 100px;
+	}
+}
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
 	#form-box{
 		margin-top: 100px;
 		margin-bottom: 100px;
@@ -175,3 +207,4 @@ section.parallax {
 		margin-bottom: 200px;
 	}
 }
+

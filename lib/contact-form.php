@@ -46,13 +46,13 @@ try {
 	$status = mail("haines.ella@gmail.com", $subject, $message, $headers);
 
 	if ($status) {
-		echo "<p class='alert alert-success'> Thank you for your message, I will contact you shortly. </p>";
+		echo "<p class='response-message'> Thank you for your message, I will contact you shortly. </p>";
 	}
 	else throw new Exception($status->getMessage());
 
 }catch(Exception $exception) {
 	$message = $exception->getMessage();
-	echo "<p class='alert alert-danger'>Could not send email: $message; </p>";
+	echo "<p class='response-message'>Could not send email: $message; </p>";
 }
 
 ?>

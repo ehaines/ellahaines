@@ -163,7 +163,7 @@
 <!--=========================-->
 		<footer class="footer">
 			<p>
-				<a href="mailto:haines.ella@gmail.com">haines.ella@gmail.com</a> <br/>
+				<a href="mailto:ella.catherine.haines@gmail.com">ella.catherine.haines@gmail.com</a> <br/>
 				<a href="tel:+12029999217">202-999-9217</a><br/>
 				Albuquerque, NM
 			</p>

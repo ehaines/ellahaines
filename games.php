@@ -29,9 +29,9 @@
 					</div>
 					<div class="collapse navbar-collapse" id="navbar-collapsed">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="index.php/#about-section">About</a></li>
+							<li><a href="/#about-section">About</a></li>
 <!--							<li><a href="index.php/#gallery-section">Gallery</a></li>-->
-							<li><a href="index.php/#contact-section">Contact</a></li>
+							<li><a href="/#contact-section">Contact</a></li>
 							<li><a href="">Games</a></li>
 						</ul>
 					</div>

@@ -93,7 +93,7 @@
 			<div class="jumbotron col-md-6 col-md-offset-3 text" id="Ella-jumbotron">
 				<h1>Ella Haines</h1>
 				<h3>Approachable web design for your unique needs.</h3>
-				<h3>Available for freelance or full-time work.</h3>
+				<h3>Available for freelance work.</h3>
 			</div>
 		</section>
 
